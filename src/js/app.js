@@ -1,8 +1,8 @@
-const game = new Game();
-game.start();
-
 import Game, {
   GameSavingData,
   readGameSaving as loadGame,
   writeGameSaving as saveGame,
-} from "./js/game.js";
+} from "./src/js/game";
+
+const game = new Game();
+game.start();
