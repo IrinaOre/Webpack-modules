@@ -1,5 +1,4 @@
-const classCharacter = require("./src/js/domain");
-console.log(classCharacter);
+import Character from "./domain.js";
 
 export default class Game {
   start() {
